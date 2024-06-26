@@ -1,12 +1,39 @@
 body {
     width: 300px;
     padding: 10px;
+    background-color: #2C2C2C;
   }
-  
+  #titlediv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   h1 {
+    color: #CCCCCC;
     font-size: 18px;
   }
   
   #stats {
+    font-size: 1.1rem;
+    border-radius:20px;
+    padding-left:10px;
+    color: #CCCCCC;
     margin-top: 10px;
+    background-color: #333333;
+  }
+
+  body::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  body::-webkit-scrollbar-thumb:hover {
+    background: #555; 
   }
